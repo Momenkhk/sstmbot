@@ -1,0 +1,18 @@
+{
+  "name": "sstmbot",
+  "version": "2.0.0",
+  "description": "Large organized Discord bot with 250 commands",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node scripts_check.js",
+    "register": "node src/registerCommands.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}
