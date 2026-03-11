@@ -1,0 +1,10 @@
+{
+  "token": "PUT_BOT_TOKEN_HERE",
+  "clientId": "PUT_CLIENT_ID_HERE",
+  "guildId": "PUT_GUILD_ID_FOR_FAST_TESTING_HERE",
+  "defaultStatus": "idle",
+  "defaultWatching": "SSTM Advanced System",
+  "owners": [
+    "PUT_FIRST_OWNER_ID_HERE"
+  ]
+}
