@@ -1,0 +1,15 @@
+module.exports = {
+  name: 'gend',
+  description: 'أمر gend',
+  aliases: [],
+  category: 'admin',
+  adminOnly: true,
+  ownerOnly: false,
+  options: [],
+  async executeSlash(interaction) {
+    await interaction.reply('✅ تم تنفيذ الأمر: gend');
+  },
+  async executeText({ message }) {
+    await message.reply('✅ تم تنفيذ الأمر: gend');
+  },
+};
